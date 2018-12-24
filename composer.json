@@ -1,0 +1,17 @@
+{
+    "name": "zaine/zaine",
+    "description": "zaine logger",
+    "type": "library",
+    "authors": [
+        {
+            "name": "FunnyEnd",
+            "email": "kornienko_aa@yahoo.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {"Zaine\\": "src/Zaine"}
+    }
+}
