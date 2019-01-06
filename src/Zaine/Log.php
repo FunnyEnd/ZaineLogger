@@ -9,7 +9,7 @@ class Log
 {
 
     private $logger;
-    private const FILE_NAME = "app.log";
+    private const FILE_NAME = "app.txt";
 
     /**
      * Log constructor.
